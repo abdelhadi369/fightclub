@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 78px;
+    height: 48px;
+    padding-left: 15px;
+    
+
+}
+.nav-bar{
+    height: 75px;
+    max-width: 100%;
+    box-shadow: 10px 0 20px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-list{
+    display: flex;
+    
+   
+    
+
+}
+.nav-list li{
+    list-style: none;
+    padding-right: 50px;
+    font-size: 24px;
+    color: #DA1F31;
+    font-family: 'Passion one';
+}
+.nav-list li:hover{
+    border-bottom: 3px solid #DA1F31;
+    
+    
+}
+.nav-list a{
+    color: #DA1F31;
+    text-decoration: none;
+}
+.main img{
+    max-width: 60%;
+    height:auto;
+    border-radius: 18px;
+    box-shadow: 6px 6px 10px 0  rgba(0, 0, 0, 0.438);
+    
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0;
+}
+.main h1{
+    font-family: 'Passion One';
+    font-size: 78px;
+    text-align: center;
+
+}
+.meet-up, .fight{
+    max-width: 100%;
+    height: auto ;
+    background-color: #DA1F31;
+}
+.meet-up h1, .face-off h1, .fight h1{
+    text-align: center;
+    color: white;
+    font-size: 68px;
+    font-family: 'Passion One';
+    padding-top: 15px;
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+.meet-up-content img, .face-off-content img, .fight-content img{
+    max-width: 50%;
+    height: auto;
+    
+}
+.meet-up-content, .face-off-content, .fight-content{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+}
+.meet-up-content p, .face-off-content p, .fight-content p{
+    max-width: 50%;
+    color: white;
+    font-size: 50px;
+    font-family: 'Passion One';
+    padding-left: 30px;
+    margin-top: 7px;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+}
+.face-off{
+    background-color: black;
+    max-width: 100%;
+    height: auto;
+
+}
