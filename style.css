@@ -29,7 +29,7 @@ body{
 }
 .nav-list li{
     list-style: none;
-    padding-right: 50px;
+    margin-right: 50px;
     font-size: 24px;
     color: #DA1F31;
     font-family: 'Passion one';
