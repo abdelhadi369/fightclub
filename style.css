@@ -35,7 +35,7 @@ body{
     font-family: 'Passion one';
 }
 .nav-list li:hover{
-    border-bottom: 3px solid green;
+    border-bottom: 3px solid red;
     
     
 }
